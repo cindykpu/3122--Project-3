@@ -1,0 +1,56 @@
+body{
+  background-color: #f7f7f7;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding-top: 25px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo {
+  max-width:100px;
+  position:absolute;
+  display: block;
+  top: 25px;
+  left: 30px;
+  margin-left: auto;
+  margin-right:inherit;
+}
+
+.shoe{
+  width: 1000px;
+  display: block;
+}
+
+.shoe-box{
+  display:none;
+}
+
+.shoe-two{
+  display: none;
+}
+
+.shoe-box, .color-shoe-box, .shoe-two, .shoe-three, .shoe-four{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.content-box{
+  position: absolute;
+  top:50px;
+  left:0;
+}
+
+.switch-nav{
+  position: absolute;
+  bottom: 50px;
+  left:0px;
+  right: 0px;
+}
+
+.switch-nav a{
+  display: inline-block;
+  margin:0 20px;
+}
